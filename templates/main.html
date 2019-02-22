@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Fibonacci</h1>
+    <p class="lead">Ingrese límite máximo:</p>
+    <form action="/fibonacci/">
+        <div class="form-group">
+            <label for="nth"></label>
+            <input type="number" name="nth" class="form-control" id="nth" placeholder="N°">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+<table class="table">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">N°</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for succession in successions %}
+        <tr>
+            <th scope="row">{{ succession }}</th>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
