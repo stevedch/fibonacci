@@ -145,7 +145,7 @@
 
       ```sh
          $ pip install -r requirements.txt
-      ```   ```
+      ``` 
 
     * Deberá ejecutar el siguiente comando para levantar el servidor.
 
